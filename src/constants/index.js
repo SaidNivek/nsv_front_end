@@ -20,7 +20,7 @@ export const navLinks = [
       title: "Repairs",
     },
     {
-      id: "vacuumCleaners",
+      id: "appliances",
       title: "Appliances",
     },
     {

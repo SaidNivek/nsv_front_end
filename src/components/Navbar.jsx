@@ -8,12 +8,12 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img src={logo} alt="hoobank" className="w-[124px] h-[32px]" />
+      <img src={logo} alt="northshorevacuum" className="w-[124px] h-[32px]" />
       <ul className="list-none sm:flex hidden justify-end item-center flex-1" >
         {navLinks.map((nav, index) => (
           <li 
             key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-[16px] text-white 
+            className={`font-poppins font-normal cursor-pointer text-[16px] text-black 
               // This dynamic code will change the margin-right to prevent margin from apperaing on the last item in the array
               ${index === navLinks.length -1 ? 'mr-0' : 'mr-10'}`}
           >
