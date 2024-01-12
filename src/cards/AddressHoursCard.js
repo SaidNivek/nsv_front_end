@@ -14,7 +14,7 @@ function LocationCard() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
-    // This function will fetch the hours that the store is open, and set it to the state variable hours
+    // This function will fetch the locations that the store is open, and set it to the state variable locations
     function getLocations() {
         fetch(URL)
             .then((res) => res.json())
@@ -22,7 +22,6 @@ function LocationCard() {
                 if(result.length > 0) {
                     setLocations(result)
                 }
-                console.log(locations)
             })
             .catch((err) => console.error(err))
     }
@@ -31,7 +30,7 @@ function LocationCard() {
         {locations?.map((location) => (
             <>
                 <p>{location.city}, {location.state}</p>
-                <Address />
+                <Address location={location}/>
                 <Hours location={location}/>
             </>
         ))}

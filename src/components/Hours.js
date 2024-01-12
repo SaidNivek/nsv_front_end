@@ -31,7 +31,7 @@ function Hours() {
 
   return (
     <>
-    <div>Hours</div>
+    <p><strong>Hours</strong></p>
     {hours?.map((hour) => (
             <div className="flex gap-3">
                 <p>{hour.day}: </p>
