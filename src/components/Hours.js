@@ -6,7 +6,7 @@ const URL = `https://${process.env.REACT_APP_SANITY_PROJECT_ID}.api.sanity.io/v2
 
 console.log(URL)
 
-function Hours() {
+function Hours({location}) {
     let [hours, setHours] = useState(null)
 
     useEffect(() => {
@@ -25,19 +25,29 @@ function Hours() {
                 console.log(hours)
             })
             .catch((err) => console.error(err))
-    }
-    
-
+    } 
 
   return (
     <>
-    <p><strong>Hours</strong></p>
-    {hours?.map((hour) => (
-            <div className="flex gap-3">
-                <p>{hour.day}: </p>
-                <p>{hour.hours}</p>
-            </div>
-    ))}
+    <div>
+        <p><strong>Hours</strong></p>
+        <p>Mon:</p>
+        <p>Tue:</p>
+        <p>Wed:</p>
+        <p>Thu:</p>
+        <p>Fri:</p>
+        <p>Sat:</p>
+        <p>Sun:</p>
+    </div>
+    <div>
+        <p>{location.mon}</p>
+        <p>{location.tue}</p>
+        <p>{location.wed}</p>
+        <p>{location.thu}</p>
+        <p>{location.fri}</p>
+        <p>{location.sat}</p>
+        <p>{location.sun}</p>
+    </div>
     </>
   )
 }
