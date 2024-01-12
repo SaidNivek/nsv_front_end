@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
-import Hours from './Hours'
+import Hours from '../components/Hours'
+import Address from '../components/Address';
 
 const QUERY = encodeURIComponent('*[_type == "locations"]')
 const URL = `https://${process.env.REACT_APP_SANITY_PROJECT_ID}.api.sanity.io/v2021-10-21/data/query/${process.env.REACT_APP_DATASET}?query=${QUERY}`;
@@ -28,9 +29,12 @@ function LocationCard() {
   return (
     <>
         {locations?.map((location) => (
-            <p>{location.city}</p>
+            <>
+                <p>{location.city}, {location.state}</p>
+                <Address />
+                <Hours location={location}/>
+            </>
         ))}
-        <Hours />
     </>
   )
 }
