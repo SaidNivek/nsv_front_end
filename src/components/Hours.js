@@ -3,8 +3,9 @@ import React from 'react'
 function Hours({location}) {
 
   return (
-    <>
-        <p><strong>Hours</strong></p>
+
+    <div>
+        <p className=""><strong>Hours</strong></p>
         <div className="flex gap-[16px]">
             <div>
                 <p>Mon:</p>
@@ -25,7 +26,7 @@ function Hours({location}) {
                 <p>{location.sun}</p>
             </div>
         </div>
-        </>
+    </div>
   )
 }
 

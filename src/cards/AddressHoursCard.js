@@ -29,9 +29,11 @@ function LocationCard() {
     <>
         {locations?.map((location) => (
             <>
-                <p>{location.city}, {location.state}</p>
+            <p>{location.city}, {location.state}</p>
+            <div className="flex">
                 <Address location={location}/>
                 <Hours location={location}/>
+            </div>
             </>
         ))}
     </>
