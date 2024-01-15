@@ -16,7 +16,7 @@ function Hours({location}) {
                 <p>Sat:</p>
                 <p>Sun:</p>
             </div>
-            <div>
+            <div className="w-[173px]">
                 <p>{location.mon}</p>
                 <p>{location.tue}</p>
                 <p>{location.wed}</p>

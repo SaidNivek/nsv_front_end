@@ -26,17 +26,19 @@ function LocationCard() {
             .catch((err) => console.error(err))
     }
   return (
-    <>
-        {locations?.map((location) => (
-            <>
-            <p>{location.city}, {location.state}</p>
+
             <div className="flex">
-                <Address location={location}/>
-                <Hours location={location}/>
+        {locations?.map((location) => (
+            <div className="AddressHoursCard p-[40px] m-[60px]">
+                <p>{location.city}, {location.state}</p>
+                <div className="flex">
+                    <Address location={location}/>
+                    <Hours location={location}/>
+                </div>
             </div>
-            </>
         ))}
-    </>
+        </div>
+
   )
 }
 
