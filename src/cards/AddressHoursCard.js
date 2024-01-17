@@ -30,7 +30,7 @@ function LocationCard() {
             <div className="flex">
         {locations?.map((location) => (
             <div className="AddressHoursCard p-[40px] m-[60px]">
-                <p>{location.city}, {location.state}</p>
+                <p className="address_card_large_font">{location.city}, {location.state}</p>
                 <div className="flex">
                     <Address location={location}/>
                     <Hours location={location}/>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 .App {
   text-align: center;
 }
@@ -38,10 +40,30 @@
 }
 
 .AddressHoursCard {
+  font-family: 'Lato', sans-serif;
   flex-direction: column;
   align-items: flex-start;
   gap: 12px;
   align-self: stretch;
   border-radius: 30px;
   background: #F8F5F3;
+}
+
+.address_card_large_font {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 12px;
+}
+
+.address_card_medium_font {
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 28px;
+}
+
+.address_card_small_font {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
 }

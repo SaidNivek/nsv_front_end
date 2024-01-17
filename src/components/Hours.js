@@ -5,8 +5,8 @@ function Hours({location}) {
   return (
 
     <div>
-        <p className=""><strong>Hours</strong></p>
-        <div className="flex gap-[16px]">
+        <p className="address_card_medium_font">Hours</p>
+        <div className="flex gap-[16px] ">
             <div>
                 <p>Mon:</p>
                 <p>Tue:</p>
@@ -16,7 +16,7 @@ function Hours({location}) {
                 <p>Sat:</p>
                 <p>Sun:</p>
             </div>
-            <div className="w-[173px]">
+            <div className="w-[173px] ">
                 <p>{location.mon}</p>
                 <p>{location.tue}</p>
                 <p>{location.wed}</p>
