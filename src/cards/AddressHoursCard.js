@@ -27,13 +27,13 @@ function LocationCard() {
     }
   return (
 
-            <div className="flex">
+        <div className="flex md:flex-row md:w-[550px] flex-col w-310">
         {locations?.map((location) => (
-            <div className="AddressHoursCard p-[40px] m-[60px]">
+            <div className="AddressHoursCard md:p-[40px] md:m-[60px] p-[24px] m-[30px]">
                 <p className="address_card_large_font">{location.city}, {location.state}</p>
-                <div className="flex">
-                    <Address location={location}/>
-                    <Hours location={location}/>
+                <div className="flex md:flex-row flex-col ">
+                    <Address location={location} />
+                    <Hours location={location} />
                 </div>
             </div>
         ))}
