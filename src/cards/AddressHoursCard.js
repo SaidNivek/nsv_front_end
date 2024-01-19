@@ -26,18 +26,22 @@ function LocationCard() {
             .catch((err) => console.error(err))
     }
   return (
-
-        <div className="flex md:flex-row md:w-[550px] flex-col w-310">
-        {locations?.map((location) => (
-            <div className="AddressHoursCard md:p-[40px] md:m-[60px] p-[24px] m-[30px]">
-                <p className="address_card_large_font">{location.city}, {location.state}</p>
-                <div className="flex md:flex-row flex-col ">
-                    <Address location={location} />
-                    <Hours location={location} />
+    <>
+        <div className="text-center ">
+            <h2>Come visit us</h2>
+        </div>    
+            <div className="flex md:flex-row md:w-[550px] flex-col w-310">
+            {locations?.map((location) => (
+                <div className="AddressHoursCard md:p-[40px] md:m-[60px] p-[24px] m-[30px]">
+                    <p className="address_card_large_font">{location.city}, {location.state}</p>
+                    <div className="flex md:flex-row flex-col items-stretch ">
+                        <Address location={location} />
+                        <Hours location={location} />
+                    </div>
                 </div>
+            ))}
             </div>
-        ))}
-        </div>
+    </>
 
   )
 }

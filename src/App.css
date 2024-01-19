@@ -19,6 +19,14 @@ body {
   }
 }
 
+h2 {
+font-family: Lato;
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
