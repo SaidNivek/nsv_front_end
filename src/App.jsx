@@ -1,4 +1,4 @@
-import Navbar from './components/Navbar';
+import Navbar from './components/Generic_Components/Navbar';
 import './App.css';
 import styles from  './style'
 import Home from './containers/Home';

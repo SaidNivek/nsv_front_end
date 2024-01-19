@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
-import Hours from '../components/Hours'
-import Address from '../components/Address';
+import Hours from '../components/Home_Components/Hours'
+import Address from '../components/Home_Components/Address';
 
 const QUERY = encodeURIComponent('*[_type == "locations"]')
 const URL = `https://${process.env.REACT_APP_SANITY_PROJECT_ID}.api.sanity.io/v2021-10-21/data/query/${process.env.REACT_APP_DATASET}?query=${QUERY}`;
