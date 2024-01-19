@@ -7,13 +7,13 @@ import Reviews from '../components/Home_Components/Reviews'
 
 function Home() {
   return (
-    <>
+    <div className="items-stretch">
         <Values />
         <Brands />
         <AddressHoursCard />
         <WhyShopWithUs />
         <Reviews />
-    </>
+    </div>
   )
 }
 
