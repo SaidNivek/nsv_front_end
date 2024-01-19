@@ -1,7 +1,8 @@
-import Navbar from './components/Generic_Components/Navbar';
 import './App.css';
 import styles from  './style'
+import Navbar from './components/Generic_Components/Navbar';
 import Home from './containers/Home';
+import Footer from './components/Generic_Components/Footer';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <div className={`${styles.boxWidth}`}>
           <Navbar />
           <Home />
+          <Footer />
         </div>
       </div>
     </div>
