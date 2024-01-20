@@ -1,12 +1,12 @@
 import React, {useState, useEffect} from 'react'
-import Hours from '../components/Home_Components/Hours'
-import Address from '../components/Home_Components/Address';
+import Hours from '../Home_Components/Hours';
+import Address from '../Home_Components/Address';
 
 const QUERY = encodeURIComponent('*[_type == "locations"]')
 const URL = `https://${process.env.REACT_APP_SANITY_PROJECT_ID}.api.sanity.io/v2021-10-21/data/query/${process.env.REACT_APP_DATASET}?query=${QUERY}`;
 
 
-function LocationCard() {
+function AddressHoursCard() {
     let [locations, setLocations] = useState([])
 
     useEffect(() => {
@@ -25,13 +25,14 @@ function LocationCard() {
             })
             .catch((err) => console.error(err))
     }
+    
   return (
     <div className="flex flex-col">
         <div className="text-center ">
             <h2>Come visit us</h2>
         </div>    
             <div className="flex md:flex-row flex-col w-310 ">
-            {locations?.map((location) => (
+            {locations?.map((location, idx) => (
                 <div className="AddressHoursCard md:max-p-[3%] md:max-m-[5%] p-[2%] m-[3%] flex">
                     <p className="address_card_large_font">{location.city}, {location.state}</p>
                     <div className="flex md:flex-row flex-col">
@@ -46,4 +47,4 @@ function LocationCard() {
   )
 }
 
-export default LocationCard
+export default AddressHoursCard
