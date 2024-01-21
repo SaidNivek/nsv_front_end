@@ -4,7 +4,7 @@ function Address({location}) {
   let google_query=`http://maps.google.com/?q=${location.street},${location.city},${location.state},${location.zip}`
 
   return (
-    <div className="md:max-w-[48%] md:mt-[3%] mt-[6%] flex flex-col">
+    <div className="w-[48%] flex flex-col">
       <p className="card_medium_font">Address</p>
       <div className="card_small_font md:w-[299px]">
         <p>{location.street}</p>

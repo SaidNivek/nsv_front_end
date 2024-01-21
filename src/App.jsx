@@ -6,7 +6,7 @@ import Footer from './components/Generic_Components/Footer';
 
 function App() {
   return (
-  <div className="bg-primary w-full overflow-hidden">
+  <div className="bg-primary w-full ">
     <div className="">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>

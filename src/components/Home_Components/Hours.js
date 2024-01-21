@@ -4,7 +4,7 @@ function Hours({location}) {
 
   return (
 
-    <div className="md:max-w-[48%] md:mt-[12px] mt-[24px]">
+    <div className="">
         <p className="card_medium_font ">Hours</p>
         <div className="flex gap-[16px] ">
             <div>
@@ -16,7 +16,7 @@ function Hours({location}) {
                 <p>Sat:</p>
                 <p>Sun:</p>
             </div>
-            <div className="md:w-[173px]">
+            <div className="">
                 <p>{location.mon}</p>
                 <p>{location.tue}</p>
                 <p>{location.wed}</p>
