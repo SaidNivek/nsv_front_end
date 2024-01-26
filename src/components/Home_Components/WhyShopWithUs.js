@@ -12,7 +12,3 @@ function WhyShopWithUs() {
 }
 
 export default WhyShopWithUs
-
-{/* <svg width="296" height="30" viewBox="0 0 296 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect opacity="0.3" x="0.293579" y="0.299316" width="295.413" height="28.8819" fill="#4FB0E8"/>
-</svg> */}
