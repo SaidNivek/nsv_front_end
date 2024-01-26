@@ -1,7 +1,8 @@
 import React, {useState, useEffect} from 'react'
 import Hours from '../Home_Components/Hours';
 import Address from '../Home_Components/Address';
-import { blue_rectangle } from '../../assets';
+import BlueRectangle from '../../assets/BlueRectangle';
+import { rect_test } from '../../assets';
 
 const QUERY = encodeURIComponent('*[_type == "locations"]')
 const URL = `https://${process.env.REACT_APP_SANITY_PROJECT_ID}.api.sanity.io/v2021-10-21/data/query/${process.env.REACT_APP_DATASET}?query=${QUERY}`;
@@ -26,12 +27,14 @@ function AddressHoursCard() {
             })
             .catch((err) => console.error(err))
     }
+
+
     
   return (
     <div className="flex flex-col">
         <div className="text-center relative">
             <h2>Come visit us</h2>
-            <img src={blue_rectangle} alt="blue rectangle behing text" className="absolute top-[17px] left-[50%] -translate-x-[50%]" />
+            <img src={rect_test} alt="blue rectangle behind text" className="absolute ml-[50%] -translate-x-[50%] top-[17px]" />
         </div>    
             <div className="flex sm:flex-row flex-col">
             {locations?.map((location, idx) => (

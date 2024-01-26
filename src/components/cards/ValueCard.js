@@ -1,5 +1,5 @@
 import React from 'react'
-import { arrow, bullseye } from '../../assets'
+import { arrow } from '../../assets'
 
 function ValueCard({value}) {
   // style={`background-image: url(${bullseye})`}
