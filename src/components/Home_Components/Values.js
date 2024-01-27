@@ -8,12 +8,12 @@ function Values() {
   let [values, setValues] = useState([])
 
     useEffect(() => {
-        getLocations()
+        getValues()
     // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
     // This function will fetch the locations that the store is open, and set it to the state variable locations
-    function getLocations() {
+    function getValues() {
         fetch(URL)
             .then((res) => res.json())
             .then(({ result }) => {
