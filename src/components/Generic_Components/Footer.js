@@ -4,7 +4,7 @@ import { navLinks } from '../../constants'
 
 function Footer() {
   return (
-    <footer className="flex justify-between">
+    <footer className="flex justify-between p-10">
       <img src={logo} alt="northshorevacuum" className="w-[124px] h-[32px]" />
       <div>
         {navLinks?.map((nav, index) => (
