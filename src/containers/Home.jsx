@@ -7,7 +7,7 @@ import Reviews from '../components/Home_Components/Reviews'
 
 function Home() {
   return (
-    <div className="items-stretch flex flex-col">
+    <div className="flex flex-col">
         <Values />
         <Brands />
         <AddressHoursCard />

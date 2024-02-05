@@ -6,16 +6,14 @@ import Footer from './components/Generic_Components/Footer';
 
 function App() {
   return (
-  <div className="bg-primary w-full ">
-    <div className="">
-      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
+  <div className="bg-primary">
+      <div className="justify-center">
           <Navbar />
+        <div>
           <Home />
-          <Footer />
         </div>
+          <Footer />
       </div>
-    </div>
   </div>
   );
 }
