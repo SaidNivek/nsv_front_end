@@ -4,9 +4,8 @@ import { navLinks } from '../../constants'
 
 function Footer() {
   return (
-    <footer className="flex justify-between p-10">
-      <img src={logo} alt="northshorevacuum" className="w-[124px] h-[32px]" />
-      <div>
+    <footer className="flex md:flex-row-reverse flex-col justify-between p-10 md:mt-0 mt-10">
+      <div className="flex flex-col md:flex-row">
         {navLinks?.map((nav, index) => (
           <a key={nav.id}
           className={`cursor-pointer text-[16px] text-black underline hover:decoration-[#4FB0E8] hover:decoration-2
@@ -14,9 +13,10 @@ function Footer() {
           ${index === navLinks.length -1 ? 'mr-0' : 'mr-10'}`}          
           href={`#${nav.id}`}>
                 {nav.title}
-              </a>
-          ))}
-        </div>
+          </a>
+        ))}
+      </div>
+      <img src={logo} alt="northshorevacuum" className="md:w-[10%] md:mt-0 mt-5 w-[60%] " />
     </footer>
   )
 }

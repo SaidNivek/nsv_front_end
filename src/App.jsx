@@ -6,8 +6,8 @@ import Footer from './components/Generic_Components/Footer';
 
 function App() {
   return (
-  <div className="bg-primary">
-      <div className="justify-center">
+  <div>
+      <div >
           <Navbar />
         <div>
           <Home />
