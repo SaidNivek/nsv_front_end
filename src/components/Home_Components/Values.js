@@ -27,7 +27,7 @@ function Values() {
   return (
     <div className="flex md:flex-row justify-evenly md:gap-0 mt-[25px]">
       {values?.map((value, idx) => (
-        <ValueCard value={value} />
+        <ValueCard value={value} key={idx} />
       ))}
 
     </div>

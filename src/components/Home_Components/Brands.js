@@ -10,7 +10,7 @@ function Brands() {
       </div>
       <div className="flex justify-evenly">
         {brands.map((brand, idx) => (
-          <img src={brand.image} alt="brand name"/>
+          <img src={brand.image} alt="brand name" key={idx} />
         ))}
       </div>
       <div>
