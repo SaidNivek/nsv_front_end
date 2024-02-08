@@ -1,10 +1,10 @@
 import React from 'react'
 
-function SectionHead({ text, width, height, viewBox, rect_x, rect_y, rect_width, rect_height }) {
+function SectionHead({ text, width, height, viewBox, rect_x, rect_y, rect_width, rect_height, classes }) {
 
   return (
     <div>
-        <h2>{text}</h2>
+        <h2 className="md:text-[32px] text-[24px]">{text}</h2>
 
         <svg   
             width={width}
@@ -12,7 +12,7 @@ function SectionHead({ text, width, height, viewBox, rect_x, rect_y, rect_width,
             viewBox={viewBox}
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            className="absolute ml-[50%] -translate-x-[50%] top-[17px]" 
+            className={`absolute ml-[50%] -translate-x-[50%] top-[17px] ${classes}`} 
             >
             <rect
                 opacity="0.3"
