@@ -29,7 +29,7 @@ function Reviews() {
   return (
     <div className="">
       <div className="text-center relative md-w[100%] ">
-        <SectionHead text="What our customers are saying" width="464" height="30" viewBox="0 0 464 30" rect_x="0.151611" rect_y="0.299316" rect_width="463.697" rect_height="28.8819" classes="w-[90%]"/>
+        <SectionHead text="What our customers are saying" width="464" height="30" viewBox="0 0 464 30" rect_x="0.151611" rect_y="0.299316" rect_width="463.697" rect_height="28.8819" />
         <div className="flex md:flex-row flex-col gap-2 justify-center items-center md:items-stretch">            
           {reviews?.map((review, id) => (
             <ReviewCard review={review} />
