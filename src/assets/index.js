@@ -1,5 +1,6 @@
 import close from './close.svg'
 import logo from './logo.svg'
+import logo2 from './logo2.svg'
 import menu from './menu.svg'
 import oldStorePic from './oldStorePic.svg'
 import insideStore from './insideStore.svg'
@@ -10,6 +11,7 @@ import bullseye from './bullseye.png'
 export {
     close,
     logo, 
+    logo2, 
     menu,
     arrow,
     bullseye,

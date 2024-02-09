@@ -1,5 +1,5 @@
 import React from 'react'
-import { logo } from '../../assets'
+import { logo, logo2 } from '../../assets'
 import { navLinks } from '../../constants'
 
 function Footer() {
@@ -16,7 +16,7 @@ function Footer() {
           </a>
         ))}
       </div>
-      <img src={logo} alt="northshorevacuum" className="md:w-[10%] md:mt-0 mt-5 w-[60%] " />
+      <img src={logo2} alt="northshorevacuum" className="md:w-[10%] md:mt-0 mt-5 w-[60%] " />
     </footer>
   )
 }
