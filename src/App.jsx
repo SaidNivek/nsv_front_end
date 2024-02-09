@@ -4,11 +4,11 @@ import Home from './containers/Home';
 import Footer from './components/Generic_Components/Footer';
 
 function App() {
-  return (
-  <div>
+  return ( 
+  <div className="max-w-[1440px] main-div">
       <div >
           <Navbar />
-        <div>
+        <div className="main-div">
           <Home />
         </div>
           <Footer />

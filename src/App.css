@@ -27,6 +27,11 @@ h2 {
 }
 
 
+.main-div {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
