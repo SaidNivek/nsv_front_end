@@ -17,7 +17,7 @@ const Navbar = () => {
               // This dynamic code will change the margin-right to prevent margin from apperaing on the last item in the array
               ${index === navLinks.length -1 ? 'mr-0' : 'mr-10'}`}
           >
-            <a href={`#${nav.id}`}>
+            <a href={`${nav.id}`}>
               {nav.title}
             </a>
           </li>

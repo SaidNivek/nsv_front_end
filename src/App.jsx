@@ -1,7 +1,11 @@
 import './App.css';
 import Navbar from './components/Generic_Components/Navbar';
 import Home from './containers/Home';
+import Products from './containers/Products';
+import Services from './containers/Services';
+import ContactUs from './containers/ContactUs';
 import Footer from './components/Generic_Components/Footer';
+import { Routes, Route } from 'react-router-dom'
 
 function App() {
   return ( 
@@ -9,7 +13,12 @@ function App() {
       <div >
           <Navbar />
         <div className="main-div">
-          <Home />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/products" element={<Products />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/contactus" element={<ContactUs />} />            
+          </Routes>
         </div>
           <Footer />
       </div>
