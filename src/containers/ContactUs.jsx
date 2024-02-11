@@ -4,7 +4,6 @@ function ContactUs() {
   return (
     <>
     <div>ContactUs</div>
-    <p>Test</p>
     </>
   )
 }
