@@ -11,7 +11,7 @@ function Footer() {
           className={`cursor-pointer text-[16px] text-black underline hover:decoration-[#4FB0E8] hover:decoration-2
           // This dynamic code will change the margin-right to prevent margin from appearing on the last item in the array
           ${index === navLinks.length -1 ? 'mr-0' : 'mr-10'}`}          
-          href={`#${nav.id}`}>
+          href={`${nav.id}`}>
                 {nav.title}
           </a>
         ))}
