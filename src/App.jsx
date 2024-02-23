@@ -12,7 +12,7 @@ function App() {
   <div className="max-w-[1440px] main-div">
       <div >
           <Navbar />
-        <div className="main-div">
+        <div>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/products" element={<Products />} />
