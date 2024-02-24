@@ -1,4 +1,5 @@
 import React from 'react'
+import InfoCard from '../components/cards/InfoCard'
 
 function Products() {
   return (
@@ -7,7 +8,10 @@ function Products() {
       <p>Product Nav - Residential Central Vacuum Commercial</p>
       <p>Details and image</p>
       <br />
-      <p>Residential Heading</p>
+      <InfoCard />
+      <InfoCard />
+      <InfoCard />
+      {/* <p>Residential Heading</p>
       <p>Residential Copy</p>
       <p>Brands We Carry</p>
       <p>Brand Logos</p>
@@ -20,7 +24,7 @@ function Products() {
       <p>Commercial Heading</p>
       <p>Commercial Copy</p>
       <p>Brands We Carry</p>
-      <p>Brand Logos</p>
+      <p>Brand Logos</p> */}
     </>
   )
 }
