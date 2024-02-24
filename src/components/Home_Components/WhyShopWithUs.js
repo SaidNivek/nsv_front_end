@@ -20,8 +20,8 @@ function WhyShopWithUs() {
       </div>
       <div className="w-[90%] relative hidden xs:block">
         <div className="md:ml-[10px]">          
-          <img src={oldStorePic} alt="old vacuum store" className="absolute md:w-[45%]"/>
-          <img src={insideStore} alt="inside new vacuum store" className="absolute top-[10%] left-[40%] md:w-[45%]" />
+          <img src={oldStorePic} alt="old vacuum store" className="absolute md:w-[45%] w-[30%]"/>
+          <img src={insideStore} alt="inside new vacuum store" className="absolute top-[10%] left-[40%] md:w-[45%] w-[30%]" />
         </div>
       </div>
       <div className="block xs:hidden">
