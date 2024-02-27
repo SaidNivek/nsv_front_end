@@ -10,7 +10,7 @@ function Services() {
       <InfoCard />
       <InfoCard />
       <InfoCard />
-      {/* <p>Repairs header</p>
+      <p>Repairs header</p>
       <p>Repairs Copy</p>
       <p>Services List</p>
       <br />
@@ -21,7 +21,7 @@ function Services() {
       <p>Central Vacuum Repair header</p>
       <p>Central Vacuum Repair Copy</p>
       <p>Services List</p>
-      <br /> */}
+      <br />
     </div>
   )
 }
