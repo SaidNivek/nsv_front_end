@@ -1,5 +1,6 @@
 import React from 'react'
 import InfoCard from '../components/cards/InfoCard'
+import brands from '../../assets/brands'
 
 function Products() {
   return (
