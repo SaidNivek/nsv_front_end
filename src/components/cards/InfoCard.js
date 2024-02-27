@@ -1,11 +1,11 @@
 import React from 'react'
 
-function InfoCard() {
+function InfoCard({title, copy, tag}) {
   return (
     <>
-      <h2>Generic Heading</h2>
-      <p>Copy for the generic thing</p>
-      <p>Generic Statement - Brands We Carry / Services We Offer</p>
+      <h2>{title ? title : "Generic"}</h2>
+      <p>{copy}</p>
+      <p><strong>{tag}</strong></p>
       <p>List of Brands / Services</p>
     </>
   )
