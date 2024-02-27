@@ -9,9 +9,9 @@ function Products() {
       <p>Product Nav - Residential Central Vacuum Commercial</p>
       <p>Details and image</p>
       <br />
-      <InfoCard title="Residential" copy="This is the copy for the residential section." />
+      <InfoCard title="Residential" copy="This is the copy for the residential section." tag="Brands We Carry" />
       <InfoCard title="Central Vacuum" copy="This is the copy for the central vacuum section." tag="Brands We Carry" />
-      <InfoCard title="Commercial" copy="This is the copy for the commercial section." />
+      <InfoCard title="Commercial" copy="This is the copy for the commercial section." tag="Brands We Carry" />
 
       {/* <p>Residential Heading</p>
       <p>Residential Copy</p>

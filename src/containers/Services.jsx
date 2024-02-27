@@ -1,15 +1,15 @@
 import React from 'react'
 import InfoCard from '../components/cards/InfoCard'
 
-function Services({title}) {
+function Services() {
   return (
     <div>
       <h2>Services</h2>
       <p>Services Nav</p>
       <br />
-      <InfoCard />
-      <InfoCard />
-      <InfoCard />
+      <InfoCard title="Repairs" copy="This is the copy for the repairs section." tag="Services We Offer" />
+      <InfoCard title="Central Vacuum Install" copy="This is the copy for the central vacuum install section." tag="Services We Offer" />
+      <InfoCard title="Central Vacuum Repair" copy="This is the copy for the central vacuum repair section." tag="Services We Offer" />
       {/* <p>Repairs header</p>
       <p>Repairs Copy</p>
       <p>Services List</p>
