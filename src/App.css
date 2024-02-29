@@ -103,3 +103,7 @@ h2 {
 footer {
   background-color: #F8F5F3;
 }
+
+.active {
+  text-decoration: underline;
+}
