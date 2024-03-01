@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
 
 function ContactUs() {
+
+  const [form, setForm] = useState(null)
+
   return (
     <>
     <h2>Contact Us</h2>

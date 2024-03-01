@@ -6,7 +6,6 @@ import { NavLink } from 'react-router-dom'
 const Navbar = () => {
 
   const [toggle, setToggle] = useState(false)
-  const [selected, setSelected] = useState('Home')
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar pl-[24px] pr-[24px] ">
