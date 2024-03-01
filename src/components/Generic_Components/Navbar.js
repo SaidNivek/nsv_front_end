@@ -12,7 +12,6 @@ const Navbar = () => {
     <nav className="w-full flex py-6 justify-between items-center navbar pl-[24px] pr-[24px] ">
       <img src={logo2} alt="northshorevacuum" className="md:w-[25%]" />
       <div className="list-none sm:flex hidden justify-end item-center flex-1">
-
         {navLinks.map((nav, index) => (
           <NavLink to={`${nav.id}`} className={`cursor-pointer text-[16px] text-black hover:underline hover:decoration-[#4FB0E8] hover:decoration-4 
           // This dynamic code will change the margin-right to prevent margin from apperaing on the last item in the array
