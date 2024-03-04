@@ -4,6 +4,7 @@ function ContactUs() {
 
   const [formData, setFormData] = useState({ name: '', email: '', phone: '', message: '' })
   const [isFormSubmitted, setIsFormSubmitted] = useState(false)
+  const [loading, setLoading] = useState(false)
 
   const { name, email, phone, message } = formData
 
