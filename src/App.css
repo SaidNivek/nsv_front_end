@@ -29,7 +29,6 @@ h2 {
 
 .main-div {
   margin: 0 auto;
-  max-width: 1440px;
 }
 
 .App-header {
@@ -59,7 +58,7 @@ h2 {
 .AddressHoursCard {
   flex-direction: column;
   align-items: flex-start;
-  gap: 12px;
+  gap: 1rem;
   align-self: stretch;
   border-radius: 30px;
   background: #F8F5F3;

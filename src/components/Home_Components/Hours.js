@@ -6,7 +6,7 @@ function Hours({location}) {
 
     <div className="">
         <p className="card_medium_font ">Hours</p>
-        <div className="flex gap-[16px] ">
+        <div className="flex gap-[8px] ">
             <div>
                 <p>Mon:</p>
                 <p>Tue:</p>
