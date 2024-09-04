@@ -6,7 +6,7 @@ function Address({location}) {
   return (
     <div className=" flex flex-col">
       <p className="card_medium_font">Address</p>
-      <div className="card_small_font md:w-[15rem]">
+      <div className="card_small_font sm:w-[15rem]">
         <p>{location.street}</p>
         <p>{location.city}, {location.state} {location.zip}</p>
         <p>{location.phone}</p>
