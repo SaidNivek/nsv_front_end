@@ -39,12 +39,15 @@ const Navbar = () => {
         >
           <ul className="list-none flex items-center justify-between flex-col z-10 small_nav">
             {navLinks.map((nav, index) => (
-              <NavLink to={`${nav.id}`}>
+              <NavLink to={`${nav.id}`}
+              onClick={() => setToggle(false)}
+              >
                 <li
                   key={nav.id}
                   className={`card_medium_font cursor-pointer text-[16px] text-black btn small_nav_link
                     // This dynamic code will change the margin-right to prevent margin from appearing on the last item in the array
                     ${index === navLinks.length - 1 ? "mr-0" : "mb-1"} `}
+                    
                 >
                   {nav.title}
                 </li>
