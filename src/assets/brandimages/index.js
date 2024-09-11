@@ -1,15 +1,15 @@
 import miele from './miele.svg'
 import oreck from './oreck.svg'
 
-const brands = [
+const brandImages = [
     {
         image: miele,
-        name: "Miele"
+        name: "miele"
     },
     {
         image: oreck,
-        name: "Oreck"
+        name: "oreck"
     },
 ]
 
-export default brands
+export default brandImages
