@@ -10,7 +10,7 @@ import { Routes, Route } from 'react-router-dom'
 
 function App() {
   return ( 
-  <div className="container main-div">
+  <div className="container main-div ">
       <div >
           <Navbar />
         <div>

@@ -3,6 +3,12 @@ import React from 'react'
 function ProductsServices() {
   return (
     <div className='m-[1rem]'>
+
+        <div className="promo-banner mb-[2.5rem]">
+            <h3>FREE Shipping on orders over $59</h3>
+            <p>Some restrictions apply</p>
+        </div>
+
         <h1>We carry a full line of products & services</h1>
 
         <div className="flex flex-col sm:flex-row sm:justify-between mt-[1rem] mb-[1rem]">
@@ -36,6 +42,7 @@ function ProductsServices() {
         </div>
 
         <h4 className='mt-[2rem]'><strong>Call us today for a quote!</strong></h4>
+        <p>(978) 774-1155​</p>
     </div>
   )
 }

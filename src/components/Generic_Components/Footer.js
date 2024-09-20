@@ -7,7 +7,8 @@ function Footer() {
   return (
     <footer>
         <nav className="flex md:flex-row-reverse flex-col justify-between p-10 md:mt-0 mt-10">
-                <div className="list-none sm:flex hidden justify-end item-center flex-1">
+          <p>Address phone number</p>
+                {/* <div className="list-none sm:flex hidden justify-end item-center flex-1">
             {navLinks.map((nav, index) => (
               <NavLink to={`${nav.id}`} className={`cursor-pointer text-[16px] text-black hover:underline hover:decoration-[#4FB0E8] hover:decoration-4 
               // This dynamic code will change the margin-right to prevent margin from apperaing on the last item in the array
@@ -15,8 +16,8 @@ function Footer() {
                 {nav.title}
               </NavLink>
             ))}
-          </div>
-          <img src={logo2} alt="northshorevacuum" className="md:w-[10%] md:mt-0 mt-5 w-[60%] " />
+          </div> */}
+          <img src={logo2} alt="northshorevacuum" className=" md:mt-0 mt-5 w-[40%] " />
         </nav>
       </footer>
   )

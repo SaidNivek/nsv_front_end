@@ -59,6 +59,15 @@ li {
   margin-bottom: 1%;
 }
 
+.promo-banner {
+  padding: 12px 24px 12px 24px;
+  gap: 10px;
+  border-radius: 8px;
+  opacity: 0px;
+  background-color: #F8F5F3;
+  text-align: center;
+}
+
 .btn-link:hover {
   text-decoration: underline;
 }
