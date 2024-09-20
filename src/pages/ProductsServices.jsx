@@ -2,7 +2,7 @@ import React from 'react'
 
 function ProductsServices() {
   return (
-    <div className='m-[1rem]'>
+    <div className='m-[1rem] sub-div flex flex-col md:m-auto m-1[rem]'>
 
         <div className="promo-banner mb-[2.5rem]">
             <h3>FREE Shipping on orders over $59</h3>

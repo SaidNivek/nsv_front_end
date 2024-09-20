@@ -5,8 +5,8 @@ import { NavLink } from 'react-router-dom'
 
 function Footer() {
   return (
-    <footer>
-        <nav className="flex md:flex-row-reverse flex-col justify-between p-10 md:mt-0 mt-10">
+    <footer className='mt-[3.75] md:mt-[2.5rem]'>
+        <nav className="flex md:flex-row-reverse flex-col justify-between p-10 md:mt-0 mt-[2.5rem]">
           <p>Address phone number</p>
                 {/* <div className="list-none sm:flex hidden justify-end item-center flex-1">
             {navLinks.map((nav, index) => (
