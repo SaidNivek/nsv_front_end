@@ -43,14 +43,14 @@ function Products() {
 
   return (
     <>
-      <h2>Our Products</h2>
+      <h2 className='text-[60px]'>Our Products</h2>
       <p>Product Nav - Residential Central Vacuum Commercial</p>
       <p>Details and image</p>
       <br />
-      <InfoCard title="Residential" copy="This is the copy for the residential section." tag="Brands We Carry" products={residentials}/>
-      <InfoCard title="Central Vacuum" copy="This is the copy for the central vacuum section." tag="Brands We Carry" products={centralVacuums} />
-      <InfoCard title="Commercial" copy="This is the copy for the commercial section." tag="Brands We Carry" products={commercials} />
-      <InfoCard title="Other" copy="This is the copy for the  section." tag="Brands We Carry" products={others}/>
+      <InfoCard title="Residential" type="residential"copy="This is the copy for the residential section." tag="Brands We Carry" products={residentials}/>
+      <InfoCard title="Central Vacuum" type="centralVacuum" copy="This is the copy for the central vacuum section." tag="Brands We Carry" products={centralVacuums} />
+      <InfoCard title="Commercial" type="commercial" copy="This is the copy for the commercial section." tag="Brands We Carry" products={commercials} />
+      <InfoCard title="Other" type="other" copy="This is the copy for the  section." tag="Brands We Carry" products={others}/>
 
       {/* <p>Residential Heading</p>
       <p>Residential Copy</p>

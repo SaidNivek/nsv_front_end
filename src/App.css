@@ -19,11 +19,48 @@ body {
   }
 }
 
+h1 {
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+
+}
+
 h2 {
   font-size: 32px;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+}
+
+h3 {
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 28.8px;
+}
+
+li {
+  list-style-type: disc;
+}
+
+.btn-link {
+  padding: 12px 24px 12px 24px;
+  gap: 10px;
+  border-radius: 8px;
+  opacity: 0px;
+  background-color: #ECF4F9;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #0D8FDA;
+  margin-bottom: 1%;
+}
+
+.btn-link:hover {
+  text-decoration: underline;
 }
 
 
@@ -71,6 +108,14 @@ h2 {
   padding: 4%;
   justify-content: center;
   align-items: center;
+}
+
+.InfoCard {
+  font-size: 2rem;
+  border-radius: 30px;
+  background: #F8F5F3;
+  padding: 2%;
+  margin-bottom: 1%;
 }
 
 .card_large_font {

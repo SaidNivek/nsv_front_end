@@ -7,9 +7,9 @@ function Services() {
       <h2>Services</h2>
       <p>Services Nav</p>
       <br />
-      <InfoCard title="Repairs" copy="This is the copy for the repairs section." tag="Services We Offer" />
-      <InfoCard title="Central Vacuum Install" copy="This is the copy for the central vacuum install section." tag="Services We Offer" />
-      <InfoCard title="Central Vacuum Repair" copy="This is the copy for the central vacuum repair section." tag="Services We Offer" />
+      <InfoCard title="Repairs" type="" copy="This is the copy for the repairs section." tag="Services We Offer" products={[]} />
+      {/* <InfoCard title="Central Vacuum Install" copy="This is the copy for the central vacuum install section." tag="Services We Offer" />
+      <InfoCard title="Central Vacuum Repair" copy="This is the copy for the central vacuum repair section." tag="Services We Offer" /> */}
       {/* <p>Repairs header</p>
       <p>Repairs Copy</p>
       <p>Services List</p>
