@@ -4,7 +4,7 @@ function Hours({location}) {
 
   return (
 
-    <div className="">
+    <div className="w-[11rem] mt-[1rem] md:mt-0">
         <p className="card_medium_font ">Hours</p>
         <div className="flex gap-[8px] ">
             <div>

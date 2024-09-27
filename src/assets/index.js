@@ -7,6 +7,7 @@ import insideStore from './insideStore.svg'
 import arrow from './arrow.svg'
 import SectionHead from '../components/SectionHead.js'
 import bullseye from './bullseye.png'
+import mapPlaceholder from './mapPlaceholder.svg'
 
 export {
     close,
@@ -17,5 +18,6 @@ export {
     bullseye,
     SectionHead,
     oldStorePic,
-    insideStore
+    insideStore,
+    mapPlaceholder
 }

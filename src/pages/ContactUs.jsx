@@ -41,10 +41,13 @@ function ContactUs() {
     {!isFormSubmitted ? 
         <div className="app__footer-form app__flex">
           <div className="app__flex">
-            <input className="p-text" type="text" placeholder="Your Name" name="name" value={name} onChange={handleChangeInput} />
+            <input className="p-text" type="text" placeholder="Name" name="name" value={name} onChange={handleChangeInput} />
           </div>
           <div className="app__flex">
-            <input className="p-text" type="text" placeholder="Your Email" name="email" value={email} onChange={handleChangeInput} />
+            <input className="p-text" type="text" placeholder="Email" name="email" value={email} onChange={handleChangeInput} />
+          </div>
+          <div className="app__flex">
+            <input className="p-text" type="text" placeholder="Phone" name="phone" value={phone} onChange={handleChangeInput} />
           </div>
           <div>
             <textarea 
@@ -64,7 +67,7 @@ function ContactUs() {
       }
 
         <div className="copyright">
-            <p className="p-text">&copy;{new Date().getFullYear()} Kevin Dias</p>
+            <p className="p-text">&copy;{new Date().getFullYear()} North Shore Vacuum</p>
             <p className="p-text">All rights reserved</p>
         </div>
     </>
