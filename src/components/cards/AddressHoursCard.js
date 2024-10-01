@@ -42,7 +42,7 @@ function AddressHoursCard() {
         <div className="flex flex-row mt-2 justify-evenly m-auto">
             {locations?.map((location, idx) => (                
                 <div className="AddressHoursCard m-[2%] p-5 flex md:flex-row flex-col justify-evenly" key={idx}>
-                    <div className="" >
+                    <div >
                         <p className="card_large_font">{location.city}, {location.state}</p>
                         <div className="flex md:flex-row flex-col">
                             <Address location={location} />

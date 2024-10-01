@@ -139,6 +139,12 @@ li {
   margin-bottom: 1%;
 }
 
+.ContactForm {
+  background-color: #F8F5F3;
+  border-radius: 30px;
+  
+}
+
 .card_large_font {
   font-size: 24px;
   font-weight: 800;
