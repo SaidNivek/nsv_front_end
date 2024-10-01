@@ -6,6 +6,7 @@ import Services from './pages/Services';
 import ContactUs from './pages/ContactUs';
 import ProductsServices from './pages/ProductsServices';
 import Footer from './components/Generic_Components/Footer';
+import CentralVacuums from './pages/CentralVacuums';
 import { Routes, Route } from 'react-router-dom'
 
 function App() {
@@ -19,7 +20,8 @@ function App() {
             <Route path="/productsandservices" element={<ProductsServices />}/>
             <Route path="/products" element={<Products />} />
             <Route path="/services" element={<Services />} />
-            <Route path="/contactus" element={<ContactUs />} />            
+            <Route path="/contactus" element={<ContactUs />} />
+            <Route path="/centralvacuum" element={CentralVacuums} />            
           </Routes>
         </div>
           <Footer />

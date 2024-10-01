@@ -151,7 +151,7 @@ function ContactUs() {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={mapPlaceholder} />
+              <img className="mt-[32px]" src={mapPlaceholder} />
             </a>
           </div>
         </div>

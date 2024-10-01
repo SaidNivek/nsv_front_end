@@ -59,7 +59,7 @@ function AddressHoursCard() {
                         </a>
                     </div>
                     <div>
-                        <img src={insideStore} />    
+                        <img className="mt-[32px]" src={insideStore} />    
                     </div>
                 </div>
                 ))}
