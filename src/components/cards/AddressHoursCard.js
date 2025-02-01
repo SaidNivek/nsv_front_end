@@ -58,9 +58,6 @@ function AddressHoursCard() {
                             <img src={mapPlaceholder} />
                         </a>
                     </div>
-                    <div>
-                        <img className="mt-[32px]" src={insideStore} />    
-                    </div>
                 </div>
                 ))}
 
