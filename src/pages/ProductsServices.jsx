@@ -28,8 +28,6 @@ function ProductsServices() {
                 <li>Motors</li>
                 <li>Hard-to-find parts</li>
                 <li>Central vacuum systems</li>
-                <li>Professional air purifier systems</li>
-                <li>Full-line of Miele appliances</li>
             </ul>
         </div>
 
