@@ -1,4 +1,5 @@
 import React from 'react'
+import Banner from '../components/Home_Components/Banners'
 import Values from '../components/Home_Components/Values'
 import Brands from '../components/Home_Components/Brands'
 import AddressHoursCard from '../components/cards/AddressHoursCard'
@@ -9,6 +10,7 @@ import Promotion from '../components/Promotion'
 function Home() {
   return (
     <div className="flex flex-col">
+        <Banner />
         <Values />
         <Brands />
         <AddressHoursCard />
