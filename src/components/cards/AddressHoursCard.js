@@ -53,11 +53,6 @@ function AddressHoursCard() {
                     {/* <APIProvider apiKey={process.env.REACT_APP_GOOGLE_MAPS_API_KEY}>
                         <CustomMap />
                     </APIProvider> */}
-                    <div>
-                        <a className="address_link hover:underline hover:decoration-[#4FB0E8] hover:decoration-4" href={`http://maps.google.com/?q=${locations[idx].street},${locations[idx].city},${locations[idx].state},${locations[idx].zip}`} target="_blank" rel="noreferrer">
-                            <img src={mapPlaceholder} />
-                        </a>
-                    </div>
                 </div>
                 ))}
 
