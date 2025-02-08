@@ -30,7 +30,7 @@ function Reviews() {
     <div className="mt-[350px]  md:mt-0">
       <div className="text-center relative md-w[100%] ">
         <SectionHead text="What our customers are saying" width="464" height="30" viewBox="0 0 464 30" rect_x="0.151611" rect_y="0.299316" rect_width="463.697" rect_height="28.8819" />
-        <div className="flex smd:flex-row flex-col gap-[16px] justify-center items-center md:items-stretch">            
+        <div className="flex sm:flex-row flex-col gap-[16px] justify-center items-center md:items-stretch">            
           {reviews?.map((review, idx) => (
             <ReviewCard review={review} key={idx}/>
           ))}
