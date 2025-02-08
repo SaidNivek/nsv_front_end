@@ -39,12 +39,12 @@ function AddressHoursCard() {
         <div className="text-center relative">
             <SectionHead text="Come visit us" width="226" height="30" viewBox="0 0 226 30" rect_x="0.480225" rect_y="0.299316" rect_width="225.04" rect_height="28.8819" />
         </div>    
-        <div className="flex flex-row mt-2 justify-evenly m-auto">
+        <div className="flex flex-row mt-2 justify-evenly m-auto addressCardOuter">
             {locations?.map((location, idx) => (                
-                <div className="AddressHoursCard m-[2%] p-5 flex md:flex-row flex-col justify-evenly" key={idx}>
+                <div className="AddressHoursCard m-[2%] p-5 flex sm:flex-row flex-col justify-evenly" key={idx}>
                     <div >
                         <p className="card_large_font">{location.city}, {location.state}</p>
-                        <div className="flex md:flex-row flex-col">
+                        <div className="flex flex-row gap-[16px]">
                             <Address location={location} />
                             <Hours location={location} />
                         </div>

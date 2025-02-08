@@ -3,7 +3,7 @@ import React from 'react'
 function SectionHead({ text, width, height, viewBox, rect_x, rect_y, rect_width, rect_height, classes }) {
 
   return (
-    <div className="md:pt-0 pt-2">
+    <div className="md:pt-0 pt-2 sectionHeader">
         <h2 className="md:text-[32px] text-[24px]">{text}</h2>
 
         <svg   

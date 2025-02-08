@@ -7,7 +7,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar pl-[24px] pr-[24px] md:mb-10 sticky top-0 bg-white z-10">
+    <nav className="navBar w-full flex py-6 justify-between items-center navbar pl-[24px] pr-[24px] md:mb-10 sticky top-0 bg-white z-10">
       <NavLink to='/' className="md:w-[25%]">
         <img src={logo2} alt="northshorevacuum"  />
       </NavLink>
@@ -37,7 +37,7 @@ const Navbar = () => {
         <div
           className={`${
             toggle ? "flex" : "hidden"
-          } p-4 absolute top-20 right-0`}
+          } p-4 absolute top-20 right-0 mobileNavMenu`}
         >
           <ul className="list-none flex items-center justify-between flex-col z-10 small_nav">
             {navLinks.map((nav, index) => (
