@@ -4,12 +4,12 @@ import { SectionHead, oldStorePic, insideStore } from '../../assets'
 
 function WhyShopWithUs() {
   return (
-  <div className="flex flex-col md:mb-[16px] mr-[2%]">
+  <section className="flex flex-col md:mb-[16px] mr-[2%]">
     <div className="text-center relative">
-        <SectionHead text="Why shop with us?" width="296" height="30" viewBox="0 0 296 30" rect_x="0.293579" rect_y="0.299316" rect_width="295.413" rect_height="28.8819" />
+        <SectionHead text="Why Shop With Us?" width="296" height="30" viewBox="0 0 296 30" rect_x="0.293579" rect_y="0.299316" rect_width="295.413" rect_height="28.8819" />
     </div>
     <div className="flex flex-col md:flex-row justify-evenly mt-[16px]">
-      <div className="flex flex-col align-center ml-5 mb-5">
+      <div className="flex flex-col align-center mb-5 whyShopWithUs">
         <p>Shopping with our local, family-owned vacuum sales and service store is not just a transaction; it's an investment in quality, expertise, and a sense of community.</p>
         <br /> 
         <p>Since 1934, we've been committed to offering top-notch sales and service for residential, commercial, and central vacuums. When you choose us, you're not just a customer; you're a valued member of our extended family.</p>
@@ -31,7 +31,7 @@ function WhyShopWithUs() {
         </div>
       </div>
     </div>    
-  </div>
+  </section>
   )
 }
 

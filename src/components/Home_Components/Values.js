@@ -25,12 +25,12 @@ function Values() {
     }
 
   return (
-    <div className="flex sm:flex-row flex-col justify-evenly  mt-[24px] mb-[24px] pl-[24px] pr-[24px] gap-[16px]">
-      {values?.map((value, idx) => (
-        <ValueCard value={value} key={idx} />
-      ))}
-
-    </div>
+      <section className="flex sm:flex-row flex-col justify-evenly  mt-[24px] gap-[16px]">
+        {values?.map((value, idx) => (
+          <ValueCard value={value} key={idx} />
+        ))}
+      </section>
+    
   )
 }
 

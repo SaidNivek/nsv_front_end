@@ -11,11 +11,13 @@ function Home() {
   return (
     <div className="flex flex-col">
         <Banner />
-        <Values />
-        <Brands />
-        <AddressHoursCard />
-        <WhyShopWithUs />
-        <Reviews />
+        <div className="mainContent">
+          <Values />
+          <Brands />
+          <AddressHoursCard />
+          <WhyShopWithUs />
+          <Reviews />
+        </div>
     </div>
   )
 }

@@ -1,12 +1,13 @@
 import React from 'react'
 import { logo, logo2 } from '../../assets'
+import { social } from '../../assets'
 import { navLinks } from '../../constants'
 import { NavLink } from 'react-router-dom'
 
 function Footer() {
   return (
     <footer className='mt-[3.75] md:mt-[2.5rem]'>
-        <nav className="flex md:flex-row flex-col justify-between p-10 md:mt-0 mt-[2.5rem] items-center">
+        <nav className="flex sm:flex-row flex-col justify-between p-10 md:mt-0 mt-[2.5rem] items-center">
 
                 {/* <div className="list-none sm:flex hidden justify-end item-center flex-1">
             {navLinks.map((nav, index) => (
@@ -17,10 +18,17 @@ function Footer() {
               </NavLink>
             ))}
           </div> */}
-          <img src={logo2} alt="northshorevacuum" className=" md:mt-0 mt-5 w-[40%] " />
-          <div className="md:text-right mt-[1rem] md:mt-0">
-            <p>240 South Main St, Middleton, MA 01949</p>
-            <p>(978) 774-1155</p>
+          <div>
+            <img src={logo2} alt="northshorevacuum" className="footerLogo" />
+          </div>
+          
+          <div>
+            <p className="text-center">240 South Main St, Middleton, MA 01949<br />(978) 774-1155</p>
+          </div>
+
+          <div>
+            <h4>Follow Us</h4>
+            <a href="https://www.facebook.com/NorthShoreVacuumCleaner/" target="_blank" rel="noreferrer"><img src={social} alt="Follow us on Facebook" className="footerSocial" /></a>
           </div>
         </nav>
       </footer>

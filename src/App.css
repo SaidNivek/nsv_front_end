@@ -37,6 +37,7 @@ h2 {
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+  margin-bottom: 8px;
 }
 
 h3 {
@@ -44,6 +45,14 @@ h3 {
   font-size: 24px;
   font-weight: 800;
   line-height: 28.8px;
+  margin-bottom: 8px;
+}
+
+h4 {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 800;
+  margin-bottom: 8px;
 }
 
 li {
@@ -62,6 +71,15 @@ li {
   line-height: 24px;
   color: #0D8FDA;
   margin-bottom: 1%;
+}
+.mainContent {
+  width: 90%;
+  margin:0 auto;
+}
+
+section
+{
+  margin-bottom: 40px;
 }
 
 .promo-banner {
@@ -144,6 +162,11 @@ li {
   align-items: center;
   margin: 0;
   width: 100%;
+  text-align: center;
+}
+
+.ValueCard h2 {
+  margin-bottom: 4px;
 }
 
 .InfoCard {
@@ -158,6 +181,15 @@ li {
   background-color: #F8F5F3;
   border-radius: 30px;
   
+}
+
+.brandLogos {
+  align-items: center;
+}
+
+.brandLogos img {
+  max-width: 160px;
+  max-height: 80px;
 }
 
 .card_large_font {
@@ -188,6 +220,25 @@ li {
 
 footer {
   background-color: #F8F5F3;
+  text-align: center;
+}
+
+footer div {
+  margin-bottom: 24px;
+  width: 100%;
+  text-align: center;
+}
+
+footer img {
+  margin:0 auto;
+}
+
+.footerLogo {
+  max-width: 250px;
+}
+
+.footerSocial {
+  width: 40px;
 }
 
 .active {
@@ -220,4 +271,13 @@ footer {
   border-color: #282c34; */
   padding: 1rem;
 
+}
+
+.whyShopWithUs {
+  max-width: 550px;
+  margin:0 auto 40px auto;
+}
+
+.headerBanner {
+  margin-bottom: 40px;
 }
